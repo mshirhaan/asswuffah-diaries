@@ -3,10 +3,10 @@ import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Learning Platform",
-  description: "Learn programming step by step",
+  title: "Asswuffah Diaries",
+  description:
+    "Embark on a journey of Islamic knowledge through our structured lessons. Learn at your own pace with our carefully curated content covering Aqeedah, Fiqh, Seerah, and more.",
 };
-
 export default function RootLayout({
   children,
 }: {
