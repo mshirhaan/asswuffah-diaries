@@ -5,7 +5,6 @@ import {
   SimpleGrid,
   Text,
   VStack,
-  useColorModeValue,
 } from "@chakra-ui/react";
 import { getAllLessons } from "@/lib/mdx";
 import NextLink from "next/link";
