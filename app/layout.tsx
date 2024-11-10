@@ -1,4 +1,5 @@
 import { ChakraProvider } from "@/components/ChakraProvider";
+import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -26,7 +27,10 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <ChakraProvider>{children}</ChakraProvider>
+        <ChakraProvider>
+          <Navbar />
+          {children}
+        </ChakraProvider>
       </body>
     </html>
   );
