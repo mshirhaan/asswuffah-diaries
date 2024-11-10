@@ -24,9 +24,6 @@ export default async function LessonPage({
 
   return (
     <Container maxW="container.md" py={8}>
-      <Box mb={8}>
-        <Heading mb={4}>{lesson.title}</Heading>
-      </Box>
       <Box className="prose">
         {/* next-mdx-remote/rsc uses MDXRemote component directly */}
         <MDXRemote source={lesson.content} />
