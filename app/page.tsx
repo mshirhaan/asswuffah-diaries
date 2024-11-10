@@ -21,7 +21,7 @@ export default function HomePage() {
           bgGradient="linear(to-r, teal.500, green.500)"
           bgClip="text"
         >
-          Welcome to Asswuffah Fiqh Diaries
+          Welcome to Asswuffah Diaries
         </Heading>
 
         <Text fontSize="xl" color="gray.600" maxW="container.md">
